@@ -1,5 +1,4 @@
 import random
-import time
 
 var = ["the", "of", "and", "to", "a", "in", "for", "is", "on", "that", "by", "this", "with", "i", "you", "it", "not",
        "or", "be", "are", "from", "at", "as", "your", "all", "have", "new", "more", "an", "was", "we", "will", "home",
@@ -964,3 +963,7 @@ var = ["the", "of", "and", "to", "a", "in", "for", "is", "on", "that", "by", "th
        "bent", "laos", "subjective", "monsters", "asylum", "lightbox", "robbie", "stake", "cocktail", "outlets",
        "swaziland", "varieties", "arbor", "mediawiki", "configurations", "poison"]
 
+
+def random_select():
+    word = random.choice(var)
+    return str(word)
